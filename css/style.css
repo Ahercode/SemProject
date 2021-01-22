@@ -1,0 +1,383 @@
+/* 
+    Author: Philip Aherto
+    Theme: AherFood;
+    version: 1.0;
+*/
+
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+.Categ-curve{
+    height: 300px;
+  min-width: 300px;
+  max-width: 100%;
+  box-shadow: 8px 8px #fdc500;
+}
+
+.text-right{
+    text-align: right;
+}
+.error{
+    padding: 2%;
+    color: red;
+}
+.success{
+    padding: 2%;
+    color: rgb(3, 161, 87)(199, 194, 194);
+}
+.success1{
+    padding: 2%;
+    color: rgb(3, 161, 87)(199, 194, 194);
+    text-align: center;
+    font-size: 24;
+    font-weight: bold;
+}
+.text-center{
+    text-align: center;
+    color: white
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff4757;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #ff4757;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 3px solid rgb(148, 71, 71);
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+
+/* CSSS for navbar section */
+
+
+.logo{
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+
+/* CSS for Food SEarch Section */
+
+.search-container{
+    width: 70%;
+    height: 50px;
+    align-items: center;
+    padding: 20px;
+    margin-left: 10%;
+}
+
+.order-container{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(../images/banner.jpg);
+    height: 150vh;
+}
+
+.search-container input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: 1px solid blue;
+    border-radius: 5px;
+    
+}
+.food-price{
+    color: rgb(175, 175, 175);
+}
+
+.welcome{
+    margin-bottom: 1rem;
+    font-size: clamp(1rem, 3vw, 2rem);
+    
+}
+
+.header{
+    font-size: clamp(3rem, 5vw, 5rem); 
+}
+
+
+/* CSS for Categories */
+.categories{
+    padding: 4% 0;
+    background: #150f0f;
+}
+.featured{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
+    url(../images/featured3.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+    
+}
+
+.product-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.P-title{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: white;
+}
+.btn-order{
+    font-size: 1rem;
+    padding: 1rem 4rem;
+    border: none;
+    background: #e31837;
+    color: #fff;
+    transition: 0.2 ease-out;
+}
+.btn-order:hover{
+    background:  #ffc500;
+    color: #000;
+    
+    transition: 0.2s ease-out;
+    cursor: pointer;
+    
+}
+.btn-order1{
+    font-size: 1.5rem;
+    padding: 1rem 4rem;
+    border: none;
+    background:  #ffc500;
+    color: #000;
+    transition: 0.2 ease-out;
+}
+.btn-order1:hover{
+    background: #e31837;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+    color: #fff;
+}
+.description{
+    margin: 10px 0;
+    color: white
+}
+
+.price{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: white;
+}
+
+/* CSS for Food Menu */
+.food-menu{
+    background-color: #251a1a;
+    padding: 4% 0;
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+/* CSS for Social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+.copyright{
+    color: black;
+}
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+    color: white
+}
+
+
+
+/* CSS for Mobile Size or Smaller Screen */
+
+
+
+@media screen and (max-width:650px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .search-container input[type="search"]{
+        width: 100%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 50%;
+        padding: 2%;
+    }
+
+    .search-container{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 300px;
+        margin: 20px;
+        align-content: center;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+}
